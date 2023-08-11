@@ -1,0 +1,10 @@
+to do : 
+install -project :done 
+add pinia :done
+add vuetfy :done 
+add material icons : done
+add unocss : done
+add json serve :
+create layouts  
+add i18n : done
+add coloe mode : 
