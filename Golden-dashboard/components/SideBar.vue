@@ -1,21 +1,21 @@
 <template>
-  <div>
+  <div class="!w-[60px] md:!w-[230px]">
     <!--
     <v-layout>
       <v-navigation-drawer class="!border-0">
- 
+
       </v-navigation-drawer>-->
     <v-card>
       <v-layout>
         <v-navigation-drawer
-          class="bg-white !border-0 !w-[60px] md:!w-[230px]"
+          class="bg-white box !border-0 !w-[60px] md:!w-[230px]"
           theme="light"
           permanent
         >
           <div class="text-center">
             <v-btn class="mt-5 text-center"> Golden AboodS </v-btn>
           </div>
-          <v-list nav color="transparent " class="mt-10 mb-[100px] box">
+          <v-list nav color="transparent " class="mt-10 mb-[100px]">
             <v-list-item
               color="black"
               class="font-bold"
@@ -78,6 +78,6 @@ const links = ref([
 
 <style scoped>
 .box {
-  border-left: 2px solid blue;
+  box-shadow: 10px 10px 20px #666;
 }
 </style>

@@ -1,6 +1,5 @@
 <template>
-  <div class="w-screen bg-red h-100vh">
-    <div>abood</div>
+  <div class="w-screen bg-red mt-[60px] ml-[60px] md:!ml-[230px] py-4 pl-14">
     <div>abood</div>
     <div>abood</div>
     <div>abood</div>
