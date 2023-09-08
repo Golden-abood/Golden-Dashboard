@@ -1,10 +1,5 @@
 <template>
   <div class="!w-[60px] md:!w-[230px]">
-    <!--
-    <v-layout>
-      <v-navigation-drawer class="!border-0">
-
-      </v-navigation-drawer>-->
     <v-card>
       <v-layout>
         <v-navigation-drawer
@@ -13,7 +8,7 @@
           permanent
         >
           <div class="text-center">
-            <v-btn class="mt-5 text-center"> Golden AboodS </v-btn>
+            <v-btn class="mt-5 text-center"> Golden  </v-btn>
           </div>
           <v-list nav color="transparent " class="mt-10 mb-[100px]">
             <v-list-item
@@ -35,7 +30,7 @@
 const links = ref([
   {
     title: "Dashboard",
-    to: "/Dashboard",
+    to: "/",
     icon: "mdi-view-dashboard",
   },
   {
@@ -78,6 +73,6 @@ const links = ref([
 
 <style scoped>
 .box {
-  box-shadow: 10px 10px 20px #666;
+  box-shadow: 0 0 10px #777;
 }
 </style>

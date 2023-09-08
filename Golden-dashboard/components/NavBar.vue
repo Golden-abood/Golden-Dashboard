@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed top-0 w-[85%]">
+  <div class="fixed top-0 w-[85%] z-[100000] box">
     <div class="bg-white py-2 flex justify-between items-center px-5">
       <form>
         <span class="relative">
@@ -30,6 +30,9 @@
 <script></script>
 
 <style scoped>
+.box {
+  box-shadow: 0 0 10px #666;
+}
 input {
   transition: 0.3s;
 }
