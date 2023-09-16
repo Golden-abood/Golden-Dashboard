@@ -9,7 +9,7 @@
       </div>
     </div>
     <v-divider></v-divider>
-    <div class="my-4">
+    <v-c class="my-4">
       <p class="mb-4 text-[13px] font-semibold">
         <v-icon class="mr-2">mdi-emoticon</v-icon>
         <span>{{ fr }} Friends</span>
@@ -22,7 +22,7 @@
         <v-icon class="mr-2">mdi-message-text-outline</v-icon>
         <span>{{ ar }} Articles</span>
       </p>
-    </div>
+    </v-c>
     <v-divider></v-divider>
     <div class="flex justify-space-between items-center mt-4">
       <span class="text-[12px] font-semibold text-[#888]">{{ date }}</span>
@@ -48,6 +48,4 @@ defineProps(["title", "job", "fr", "pro", "ar", "photo", "date", "friend"]);
 </script>
 
 <style scoped>
-.friend .top {
-}
 </style>

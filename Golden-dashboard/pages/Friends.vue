@@ -31,10 +31,4 @@ const friendStore = useFriendStore();
 </script>
 
 <style scoped>
-.container {
-}
-.friends {
-}
-.friend {
-}
 </style>

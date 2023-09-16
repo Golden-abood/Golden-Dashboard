@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed top-0 w-[85%] z-[100000] box">
+  <div class="fixed top-0 w-[85%] z-[90] box">
     <div class="bg-white py-2 flex justify-between items-center px-5">
       <form>
         <span class="relative">

@@ -1,19 +1,19 @@
 <template>
-  <div class="!w-[60px] md:!w-[230px]">
-    <v-card>
+  <div class="!w-[60px] md:!w-[230px] relative z-[100]">
+    <v-card class="!bg-[#353535]">
       <v-layout>
         <v-navigation-drawer
-          class="bg-white box !border-0 !w-[60px] md:!w-[230px]"
+          class="box !border-0 !w-[60px] md:!w-[230px]"
           theme="light"
           permanent
         >
           <div class="text-center">
-            <v-btn class="mt-5 text-center"> Golden  </v-btn>
+            <v-btn class="mt-5 text-center" color="primary"> Golden </v-btn>
           </div>
           <v-list nav color="transparent " class="mt-10 mb-[100px]">
             <v-list-item
-              color="black"
-              class="font-bold"
+              class="my-[-4px] !py-4"
+              color="dark"
               v-for="link in links"
               :prepend-icon="link.icon"
               :title="link.title"

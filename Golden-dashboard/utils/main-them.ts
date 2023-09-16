@@ -1,13 +1,14 @@
 export const MAIN_THEME = {
   colors: {
     primary: "#0d69d5",
+    primaryLight: "#0075ff",
     light: "#ebf5f7",
     lightSuccess: "#d3f3df",
     lightWarning: "#fdecce",
     lightError: "#ffcccc",
     lightPrimary: "#cce3ff",
     secondary: "#b40043",
-    dark: "#1b2747",
+    dark: "353535",
     success: "#22c55e",
     info: "#7239ea",
     warning: "#f59e0b",
