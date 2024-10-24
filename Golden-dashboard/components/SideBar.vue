@@ -1,24 +1,19 @@
 <template>
-  <div>
-    <!--
-    <v-layout>
-      <v-navigation-drawer class="!border-0">
- 
-      </v-navigation-drawer>-->
-    <v-card>
+  <div class="!w-[60px] md:!w-[230px] relative z-[100]">
+    <v-card class="!bg-[#353535]">
       <v-layout>
         <v-navigation-drawer
-          class="bg-white !border-0 !w-[60px] md:!w-[230px]"
+          class="box !border-0 !w-[60px] md:!w-[230px]"
           theme="light"
           permanent
         >
           <div class="text-center">
-            <v-btn class="mt-5 text-center"> Golden AboodS </v-btn>
+            <v-btn class="mt-5 text-center" color="primary"> Golden </v-btn>
           </div>
-          <v-list nav color="transparent " class="mt-10 mb-[100px] box">
+          <v-list nav color="transparent " class="mt-10 mb-[100px]">
             <v-list-item
-              color="black"
-              class="font-bold"
+              class="my-[-4px] !py-4"
+              color="dark"
               v-for="link in links"
               :prepend-icon="link.icon"
               :title="link.title"
@@ -35,7 +30,7 @@
 const links = ref([
   {
     title: "Dashboard",
-    to: "/Dashboard",
+    to: "/",
     icon: "mdi-view-dashboard",
   },
   {
@@ -78,6 +73,6 @@ const links = ref([
 
 <style scoped>
 .box {
-  border-left: 2px solid blue;
+  box-shadow: 0 0 10px #777;
 }
 </style>

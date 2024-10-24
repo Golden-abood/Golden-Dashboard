@@ -1,0 +1,22 @@
+export const MAIN_THEME = {
+  colors: {
+    primary: "#0d69d5",
+    primaryLight: "#0075ff",
+    light: "#ebf5f7",
+    lightSuccess: "#d3f3df",
+    lightWarning: "#fdecce",
+    lightError: "#ffcccc",
+    lightPrimary: "#cce3ff",
+    secondary: "#b40043",
+    dark: "353535",
+    success: "#22c55e",
+    info: "#7239ea",
+    warning: "#f59e0b",
+    error: "#f44336",
+    lighten: "#eff2f5",
+    // background: '#eef0f8',
+    // 'primary-lighten': '#f9e8f3',
+    "on-light": "#181C32",
+    "on-surface": "#181C32",
+  },
+};
