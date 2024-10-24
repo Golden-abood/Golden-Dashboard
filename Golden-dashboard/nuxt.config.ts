@@ -23,25 +23,4 @@ export default defineNuxtConfig({
     },
   },
   devtools: { enabled: false },
-  i18n: {
-    lazy: true,
-    strategy: "no_prefix",
-    langDir: "locales",
-    defaultDirection: "ltr",
-    defaultLocale: "en-US",
-    locales: [
-      {
-        code: "en-US",
-        iso: "en-US",
-        file: "en-US.json",
-        dir: "ltr",
-      },
-      {
-        code: "ar-EG",
-        iso: "ar-EG",
-        file: "ar-EG.json",
-        dir: "rtl",
-      },
-    ],
-  },
 });
