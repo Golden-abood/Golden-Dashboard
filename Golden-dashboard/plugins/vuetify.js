@@ -14,6 +14,10 @@ export default defineNuxtPlugin((nuxtApp) => {
         mdi,
       },
     },
+    theme: {
+      defaultTheme: "MAIN_THEME",
+      themes: { MAIN_THEME },
+    },
     components,
     directives,
   });
